@@ -4,3 +4,4 @@
 - проблема в приведение типов. в С# метод double Pow (double x, double y);
 ## Update 02.10.21
 - проблема решена с помощью метода BigInteger.ModPow(BigInteger, BigInteger, BigInteger) - Выполняет модульное деление числа, возведенного в степень другого числа.
+- новые скрины в new1, new2

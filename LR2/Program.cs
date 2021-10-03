@@ -61,12 +61,11 @@ namespace LR2
                     }
                 }
             }
+            int j=0;
             for (int i = 2; i < n; i++)
             {
-                for (int j = 0; j < n; j++)
-                {
-                    if (mass[i]) { array[j] = i; } //получаем массив из простых чисел
-                }
+
+                    if (mass[i]) { array[j] = i; j++; } //получаем массив из простых чисел
             }
             var num = array[new Random().Next(0, array.Length)]; //из массива простых чисел рандомно выбираем ОДНО число
             
